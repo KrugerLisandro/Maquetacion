@@ -1,7 +1,16 @@
 .Ajustar{
     display: inline-block;
     width: 15%;
+    vertical-align: top;
   
+}
+
+.Ajustar ul{
+    list-style: none;
+    padding-inline-start: 0px !important;
+    margin-block-start: 0em !important ;
+    margin-block-end: 0em !important;
+
 }
 
 .inlineBlock{
