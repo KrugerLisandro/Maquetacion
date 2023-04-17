@@ -5,17 +5,18 @@
     <!-- PAGINA DE EJEMPLO PARA MAQUETACION : https://www.claro.com.ar/personas-->
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
-  <body>
-    <nav>
-      <a>Personas</a>
-      <a>Negocios</a>
-      <a>Empresas</a>
+  <body class="flex-container">
+    <nav class="nav">
+      <a><strong>Personas</strong></a>
+      <a><strong>Negocios</strong></a>
+      <a><strong>Empresas</strong></a>
+      <span> | </span>
       <a>Boton de baja</a>
       <a>Boton de arrepentimiento</a>
       <a>Portal de denuncias</a>
     </nav>
-    <hr />
-    <nav>
+    <hr/>
+    <nav class="nav-2">
       <img src="logoClaro.png" alt="logoClaro" />
       <a>Servicios</a>
       <a>Tienda</a>
@@ -26,55 +27,62 @@
       <a>Ayuda</a>
       <a>Mi claro</a>
     </nav>
-    <main style="text-align: center">
+    <main>
       <h1>HOLA</h1>
-      <input />
+        <button>Buscar</button>
+        <input />
     </main>
-    <section style="text-align: center">
-      <div class="inlineBlock">
+    <section class="section-1">
+      <div>
         <a>Ingresá a Mi Claro</a>
       </div>
-      <div class="inlineBlock">
+      <div>
         <a>Comprar tu pack o recarga</a>
       </div>
-      <div class="inlineBlock">
+      <div>
         <a>Ingresá a Tienda Online</a>
       </div>
     </section>
-    <section style="text-align: center">
-      <div style="display: inline-block">
-        <p>Portabilidad DESDE 30% OFF x 12 MESES</p>
-      </div>
-      <div style="display: inline-block">
-        <p>Dejanos tu número y te llamamos</p>
-        <input />
-        <button>Enviar</button>
+    <section class="section-2">
+      <div class="div-1">
+        <div>
+          <p>Portabilidad DESDE 30% OFF x 12 MESES</p>
+        </div>
+        <div>
+          <p>Dejanos tu número y te llamamos</p>
+          <input />
+          <button>Enviar</button>
+        </div>
       </div>
     </section>
-    <section style="text-align: center; display: block">
+    <section class="section-3">
       <div>
-        <p>Informacion Importante</p>
+        <p><strong>Información</strong></p>
+        <p><strong>Importante</strong></p>
         <p>Conoce lo que podes hacer online</p>
-        <a>Más info</a>
+        <a style="color: blue; text-decoration: underline;">Más info</a>
       </div>
-      <div>
+      <div class="section-3-div">
         <p>Gestiona tu linea en un click</p>
         <p>Pagá desde tu casa</p>
       </div>
     </section>
-    <section style="text-align: center">
-      <p>ANTE LAS ESTAFAS,</p>
-      <p>ESTAMOS ALERTA !</p>
-      <a>conocé más</a>
-    </section>
-    <section style="text-align: center">
-      <p>INFORMACION SOBRE COVID</p>
-      <a>VER MÁS</a>
-      <img />Imagen
+    <section class="section-4">
+      <div>
+        <p>ANTE LAS ESTAFAS,</p>
+        <p style="color: red">ESTAMOS ALERTA !</p>
+        <a>CONOCÉ MÁS</a>
+      </div>
+      <br>
+      <div >
+        <p>INFORMACION SOBRE COVID</p>
+        <a>VER MÁS</a>
+        <img />Imagen
+      </div>
     </section>
     <hr />
     <footer>
-      <div class="Ajustar">
+      <div class="footer-div">
         <ul>
           <li>
             <p>Servicios para tu celular y tu casa</p>
@@ -96,7 +104,7 @@
           </li>
         </ul>
       </div>
-      <div class="Ajustar">
+      <div class="footer-div">
         <ul>
           <li>
             <p>Accesos útiles</p>
@@ -124,7 +132,7 @@
           </li>
         </ul>
       </div>
-      <div class="Ajustar">
+      <div class="footer-div">
         <ul>
           <li>
             <p>Tienda de celulares</p>
@@ -152,7 +160,7 @@
           </li>
         </ul>
       </div>
-      <div class="Ajustar">
+      <div class="footer-div">
         <ul>
           <li>
             <p>Tienda de accesorios</p>
@@ -171,7 +179,7 @@
           </li>
         </ul>
       </div>
-      <div class="Ajustar">
+      <div class="footer-div">
         <ul>
           <li>
             <p>Ayuda</p>
@@ -196,7 +204,7 @@
           </li>
         </ul>
       </div>
-      <div class="Ajustar">
+      <div class="footer-div">
         <ul>
           <li>
             <p>Institucional</p>
